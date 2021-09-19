@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Users</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/index.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/users.css" />
+        <script src="scripts/http.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <ul class="topnav">
+            <li><a id="nav-users" class="active">Users</a></li>
+            <li><a id="nav-chat">Chat</a></li>
+            <li><a id="nav-logout">Logout</a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" style="font-size:15px;" onclick="toggleNavbar()">☰</a>
+            </li>
+        </ul>
+
+        <div id="users-container" class="cards-container">
+        </div>
+    </body>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/users.js"></script>
+</html>

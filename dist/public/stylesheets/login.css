@@ -1,0 +1,49 @@
+.invisible {
+    display: none !important;
+}
+
+.container {
+    margin-top: 20vh;
+}
+
+.container .card .input-container {
+    margin-bottom: 1em;
+}
+
+.container .card .input-container input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container .card .input-container input:focus {
+    border: 3px solid #555;
+}
+
+.container .card .btn-container .btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container .card .btn-container .btn:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+}
+
+.container .card .option-container a {
+    color: dodgerblue;
+    cursor: pointer;
+}
