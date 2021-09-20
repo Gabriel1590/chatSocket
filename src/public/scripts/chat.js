@@ -4,7 +4,7 @@
 (function() {
     // Setup socket-io main connection
     console.log('Connecting to socket-io');
-    const socket = io('http://localhost:3000');
+    const socket = io('https://chat-socket-gabriel.herokuapp.com');
     socket.on('connect', () => {
         socketIo = socket;
         console.log('Socket-io connected');
